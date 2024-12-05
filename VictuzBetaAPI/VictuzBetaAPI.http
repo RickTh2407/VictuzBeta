@@ -1,0 +1,6 @@
+@VictuzBetaAPI_HostAddress = http://localhost:5125
+
+GET {{VictuzBetaAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
