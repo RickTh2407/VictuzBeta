@@ -1,11 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VictuzBeta", "VictuzBeta.csproj", "{B0AB46C6-F245-4321-A115-E960BAAF7A22}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VictuzBetaAPI", "..\VictuzBetaAPI\VictuzBetaAPI.csproj", "{992A6CE0-474A-4BD4-B13C-3614E6FCD7EE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B0AB46C6-F245-4321-A115-E960BAAF7A22} = {B0AB46C6-F245-4321-A115-E960BAAF7A22}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
