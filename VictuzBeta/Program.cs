@@ -1,3 +1,6 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
+using VictuzBeta.Data;
+
 namespace VictuzBeta
 {
     public class Program
@@ -8,6 +11,13 @@ namespace VictuzBeta
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddDbContext<VictuzDB>();
+
+            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options =>
+            {
+                options.LoginPath = "/Members/Login";
+                options.LogoutPath = "/Members/LogOut";
+            });
 
             var app = builder.Build();
 
@@ -24,6 +34,7 @@ namespace VictuzBeta
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(
