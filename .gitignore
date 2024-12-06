@@ -396,3 +396,5 @@ FodyWeavers.xsd
 /VictuzBetaAPI/obj/VictuzBetaAPI.csproj.nuget.dgspec.json
 /VictuzBetaAPI/obj/VictuzBetaAPI.csproj.nuget.g.props
 /VictuzBetaAPI/obj/VictuzBetaAPI.csproj.nuget.g.targets
+/VictuzBeta/.vs/VictuzBeta/DesignTimeBuild/.dtbcache.v2
+/VictuzBeta/.vs/VictuzBeta/v17/.futdcache.v2
