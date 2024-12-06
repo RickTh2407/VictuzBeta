@@ -13,7 +13,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -52,6 +52,10 @@
               "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": ".gitignore",
@@ -59,7 +63,7 @@
               "RelativeDocumentMoniker": "..\\.gitignore",
               "ToolTip": "C:\\Users\\mslie\\source\\repos\\VictuzBeta\\.gitignore",
               "RelativeToolTip": "..\\.gitignore",
-              "ViewState": "AgIAAGEBAAAAAAAAAAAAAHEBAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwv3EBAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-12-05T23:39:12.631Z",
               "EditorCaption": ""
