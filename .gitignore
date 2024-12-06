@@ -363,7 +363,6 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # My own gitignores:
-VictuzBeta/.vs
 VictuzBeta/obj
 
 # API
