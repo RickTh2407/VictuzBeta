@@ -9,15 +9,15 @@ using Microsoft.AspNetCore.Connections;
 
 namespace VictuzBeta.Data
 {
-    public class VictuzDB : DbContext
+    public class VictuzBetaDB : DbContext
     {
-        public DbSet<Activity> Activities { get; set; }
-        public DbSet<Agenda> Agendas { get; set; }
-        public DbSet<Category> Categories { get; set; }
-        public DbSet<Member> Members { get; set; }
-        public DbSet<News> Newses { get; set; }
-        public DbSet<Proposition> Propositions { get; set; }
-        public DbSet<Status> Statuses { get; set; }
+        public DbSet<Activity>? Activities { get; set; }
+        public DbSet<Agenda>? Agendas { get; set; }
+        public DbSet<Category>? Categories { get; set; }
+        public DbSet<Member>? Members { get; set; }
+        public DbSet<News>? Newses { get; set; }
+        public DbSet<Proposition>? Propositions { get; set; }
+        public DbSet<Status>? Statuses { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -39,6 +39,11 @@ namespace VictuzBeta.Data
             modelBuilder.Entity<Agenda>()
                 .Property(v => v.Name)
                 .HasMaxLength(30);
+
+            //Specify Location
+            modelBuilder.Entity<Location>()
+                .Property(v => v.Name)
+                .HasMaxLength(50);
 
             //specify Member
             modelBuilder.Entity<Member>()
@@ -87,6 +92,15 @@ namespace VictuzBeta.Data
             };
             modelBuilder.Entity<Agenda>()
                 .HasData(agendaEntity);
+
+            //Data seed Location
+            Location locationEntity = new Location()
+            {
+                Id = 1,
+                Name = "Test Name",
+                Address = "Test adress",
+                Room = "B3.210"
+            };
 
             //data seed Member
             Member memberEntity = new Member()
@@ -145,5 +159,6 @@ namespace VictuzBeta.Data
                 Description = "Test Description",
             };
         }
+        public DbSet<VictuzBeta.Models.Location> Location { get; set; } = default!;
     }
 }

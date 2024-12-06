@@ -5,16 +5,16 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Victuz.Data;
-using Victuz.Models;
+using VictuzBeta.Data;
+using VictuzBeta.Models;
 
-namespace Victuz.Controllers
+namespace VictuzBeta.Controllers
 {
     public class StatusController : Controller
     {
-        private readonly VictuzDB _context;
+        private readonly VictuzBetaDB _context;
 
-        public StatusController(VictuzDB context)
+        public StatusController(VictuzBetaDB context)
         {
             _context = context;
         }
@@ -155,3 +155,5 @@ namespace Victuz.Controllers
         }
     }
 }
+    
+

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VictuzBeta")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5a096573f26997b14460b0428e4e20d5862be07")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fae3a9b38162bb1681bbacec7d89759b0625ef20")]
 [assembly: System.Reflection.AssemblyProductAttribute("VictuzBeta")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VictuzBeta")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

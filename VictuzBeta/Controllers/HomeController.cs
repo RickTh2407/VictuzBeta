@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using Victuz.Models;
+using VictuzBeta.Models;
 using Activity = System.Diagnostics.Activity;
 
-namespace Victuz.Controllers
+namespace VictuzBeta.Controllers
 {
     public class HomeController : Controller
     {
