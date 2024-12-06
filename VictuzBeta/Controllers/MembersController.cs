@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+<<<<<<< HEAD
 using VictuzBeta.Data;
 using VictuzBeta.Models;
 using System.Data.Entity.Infrastructure;
@@ -20,6 +21,19 @@ namespace VictuzBeta.Controllers
         private readonly VictuzBetaDB _context;
 
         public MembersController(VictuzBetaDB context)
+=======
+using Victuz.Data;
+using Victuz.Models;
+using System.Data.Entity.Infrastructure;
+
+namespace Victuz.Controllers
+{
+    public class MembersController : Controller
+    {
+        private readonly VictuzDB _context;
+
+        public MembersController(VictuzDB context)
+>>>>>>> 40034713999ffddfb830ed1ef18feeae66801caf
         {
             _context = context;
         }

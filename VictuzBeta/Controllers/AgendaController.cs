@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+<<<<<<< HEAD
 using VictuzBeta.Data;
 using VictuzBeta.Models;
 
@@ -15,6 +16,18 @@ namespace VictuzBeta.Controllers
         private readonly VictuzBetaDB _context;
 
         public AgendaController(VictuzBetaDB context)
+=======
+using Victuz.Data;
+using Victuz.Models;
+
+namespace Victuz.Controllers
+{
+    public class AgendaController : Controller
+    {
+        private readonly VictuzDB _context;
+
+        public AgendaController(VictuzDB context)
+>>>>>>> 40034713999ffddfb830ed1ef18feeae66801caf
         {
             _context = context;
         }

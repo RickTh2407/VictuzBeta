@@ -3,26 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\mslie\\source\\repos\\VictuzBeta\\VictuzBeta\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B0AB46C6-F245-4321-A115-E960BAAF7A22}|VictuzBeta.csproj|c:\\users\\mslie\\source\\repos\\victuzbeta\\victuzbeta\\views\\locations\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B0AB46C6-F245-4321-A115-E960BAAF7A22}|VictuzBeta.csproj|solutionrelative:views\\locations\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0AB46C6-F245-4321-A115-E960BAAF7A22}|VictuzBeta.csproj|c:\\users\\mslie\\source\\repos\\victuzbeta\\victuzbeta\\views\\locations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B0AB46C6-F245-4321-A115-E960BAAF7A22}|VictuzBeta.csproj|solutionrelative:views\\locations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0AB46C6-F245-4321-A115-E960BAAF7A22}|VictuzBeta.csproj|c:\\users\\mslie\\source\\repos\\victuzbeta\\victuzbeta\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0AB46C6-F245-4321-A115-E960BAAF7A22}|VictuzBeta.csproj|solutionrelative:controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0AB46C6-F245-4321-A115-E960BAAF7A22}|VictuzBeta.csproj|c:\\users\\mslie\\source\\repos\\victuzbeta\\victuzbeta\\data\\victuzbetadb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0AB46C6-F245-4321-A115-E960BAAF7A22}|VictuzBeta.csproj|solutionrelative:data\\victuzbetadb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0AB46C6-F245-4321-A115-E960BAAF7A22}|VictuzBeta.csproj|c:\\users\\mslie\\source\\repos\\victuzbeta\\victuzbeta\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B0AB46C6-F245-4321-A115-E960BAAF7A22}|VictuzBeta.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mslie\\source\\repos\\VictuzBeta\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
@@ -74,77 +54,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\mslie\\source\\repos\\VictuzBeta\\VictuzBeta\\Views\\Locations\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Locations\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\mslie\\source\\repos\\VictuzBeta\\VictuzBeta\\Views\\Locations\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Locations\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-06T00:29:20.846Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\mslie\\source\\repos\\VictuzBeta\\VictuzBeta\\Views\\Locations\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Locations\\Create.cshtml",
-              "ToolTip": "C:\\Users\\mslie\\source\\repos\\VictuzBeta\\VictuzBeta\\Views\\Locations\\Create.cshtml",
-              "RelativeToolTip": "Views\\Locations\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-06T00:29:14.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LocationsController.cs",
-              "DocumentMoniker": "C:\\Users\\mslie\\source\\repos\\VictuzBeta\\VictuzBeta\\Controllers\\LocationsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LocationsController.cs",
-              "ToolTip": "C:\\Users\\mslie\\source\\repos\\VictuzBeta\\VictuzBeta\\Controllers\\LocationsController.cs",
-              "RelativeToolTip": "Controllers\\LocationsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T00:28:28.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\mslie\\source\\repos\\VictuzBeta\\VictuzBeta\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\mslie\\source\\repos\\VictuzBeta\\VictuzBeta\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-06T00:07:47.941Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "VictuzBetaDB.cs",
-              "DocumentMoniker": "C:\\Users\\mslie\\Source\\Repos\\VictuzBeta\\VictuzBeta\\Data\\VictuzBetaDB.cs",
-              "RelativeDocumentMoniker": "Data\\VictuzBetaDB.cs",
-              "ToolTip": "C:\\Users\\mslie\\Source\\Repos\\VictuzBeta\\VictuzBeta\\Data\\VictuzBetaDB.cs",
-              "RelativeToolTip": "Data\\VictuzBetaDB.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA7wBIAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T00:06:28.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\mslie\\source\\repos\\VictuzBeta\\.gitignore",
               "RelativeDocumentMoniker": "..\\.gitignore",
               "ToolTip": "C:\\Users\\mslie\\source\\repos\\VictuzBeta\\.gitignore",
               "RelativeToolTip": "..\\.gitignore",
-              "ViewState": "AgIAAGEBAAAAAAAAAAAAAG0BAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGEBAAAAAAAAAAAAAHEBAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-12-05T23:39:12.631Z",
               "EditorCaption": ""
