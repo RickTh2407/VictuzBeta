@@ -14,6 +14,7 @@ namespace VictuzBeta.Data
         public DbSet<Activity>? Activities { get; set; }
         public DbSet<Agenda>? Agendas { get; set; }
         public DbSet<Category>? Categories { get; set; }
+        public DbSet<Location>? Locations { get; set; }
         public DbSet<Member>? Members { get; set; }
         public DbSet<News>? Newses { get; set; }
         public DbSet<Proposition>? Propositions { get; set; }
@@ -21,11 +22,8 @@ namespace VictuzBeta.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            IConfigurationRoot configuration = new ConfigurationBuilder()
-           .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
-           .AddJsonFile("appsettings.Development.json")
-           .Build();
-            optionsBuilder.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
+            string connection = @"Data Source=.;Initial Catalog=VictuzBetaDB;Integrated Security=true;TrustServerCertificate=True;";
+            optionsBuilder.UseSqlServer(connection);
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -101,6 +99,8 @@ namespace VictuzBeta.Data
                 Address = "Test adress",
                 Room = "B3.210"
             };
+            modelBuilder.Entity<Location>()
+                .HasData(locationEntity);
 
             //data seed Member
             Member memberEntity = new Member()
@@ -159,6 +159,5 @@ namespace VictuzBeta.Data
                 Description = "Test Description",
             };
         }
-        public DbSet<VictuzBeta.Models.Location> Location { get; set; } = default!;
     }
 }

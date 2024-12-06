@@ -1,10 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-<<<<<<< HEAD
 using VictuzBeta.Models;
-=======
-using Victuz.Models;
->>>>>>> 40034713999ffddfb830ed1ef18feeae66801caf
 using Activity = System.Diagnostics.Activity;
 
 namespace Victuz.Controllers

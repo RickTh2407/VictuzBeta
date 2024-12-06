@@ -5,16 +5,16 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Victuz.Data;
-using Victuz.Models;
+using VictuzBeta.Data;
+using VictuzBeta.Models;
 
-namespace Victuz.Controllers
+namespace VictuzBeta.Controllers
 {
     public class ActivitiesController : Controller
     {
-        private readonly VictuzDB _context;
+        private readonly VictuzBetaDB _context;
 
-        public ActivitiesController(VictuzDB context)
+        public ActivitiesController(VictuzBetaDB context)
         {
             _context = context;
         }
