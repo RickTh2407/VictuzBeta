@@ -363,10 +363,6 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # My own gitignores:
-VictuzBeta/obj
-
-# API
-VictuzBeta/VictuzBetaAPI/obj
 /.vs/VictuzBeta/v17/.wsuo
 /.vs/VictuzBeta/FileContentIndex/1424747d-c989-4217-8ee5-a01df9bfc704.vsidx
 /.vs/VictuzBeta/v17/DocumentLayout.json
@@ -389,6 +385,8 @@ VictuzBeta/VictuzBetaAPI/obj
 /VictuzBeta/obj/VictuzBeta.csproj.nuget.dgspec.json
 /VictuzBeta/obj/VictuzBeta.csproj.nuget.g.props
 /VictuzBeta/obj/VictuzBeta.csproj.nuget.g.targets
+
+# API
 /VictuzBetaAPI/obj/Debug/net8.0/VictuzBetaAPI.AssemblyInfo.cs
 /VictuzBetaAPI/obj/Debug/net8.0/VictuzBetaAPI.AssemblyInfoInputs.cache
 /VictuzBetaAPI/obj/Debug/net8.0/VictuzBetaAPI.assets.cache
