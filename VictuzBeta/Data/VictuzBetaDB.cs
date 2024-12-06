@@ -14,6 +14,7 @@ namespace VictuzBeta.Data
         public DbSet<Activity>? Activities { get; set; }
         public DbSet<Agenda>? Agendas { get; set; }
         public DbSet<Category>? Categories { get; set; }
+        public DbSet<Location>? Locations { get; set; }
         public DbSet<Member>? Members { get; set; }
         public DbSet<News>? Newses { get; set; }
         public DbSet<Proposition>? Propositions { get; set; }

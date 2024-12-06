@@ -11,11 +11,7 @@ namespace VictuzBetaAPI
             // Add services to the container.
 
             builder.Services.AddControllers();
-<<<<<<< HEAD
             builder.Services.AddDbContext<VictuzBetaDB>();
-=======
-            builder.Services.AddDbContext<VictuzDB>();
->>>>>>> 40034713999ffddfb830ed1ef18feeae66801caf
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();

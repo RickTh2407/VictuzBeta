@@ -11,11 +11,7 @@ namespace VictuzBeta
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-<<<<<<< HEAD
             builder.Services.AddDbContext<VictuzBetaDB>();
-=======
-            builder.Services.AddDbContext<VictuzDB>();
->>>>>>> 40034713999ffddfb830ed1ef18feeae66801caf
 
             builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options =>
             {
