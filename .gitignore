@@ -399,3 +399,6 @@ FodyWeavers.xsd
 /VictuzBeta/.vs/VictuzBeta/DesignTimeBuild/.dtbcache.v2
 /VictuzBeta/.vs/VictuzBeta/v17/.futdcache.v2
 /VictuzBeta/appsettings.Development.json
+/VictuzBeta/Migrations/20241206140517_AddVictuzBetaDBToDatabase.cs
+/VictuzBeta/Migrations/20241206140517_AddVictuzBetaDBToDatabase.Designer.cs
+/VictuzBeta/Migrations/VictuzBetaDBModelSnapshot.cs
