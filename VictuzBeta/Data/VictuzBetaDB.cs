@@ -11,14 +11,14 @@ namespace VictuzBeta.Data
 {
     public class VictuzBetaDB : DbContext
     {
-        public DbSet<Activity> Activities { get; set; }
-        public DbSet<Agenda> Agendas { get; set; }
-        public DbSet<Category> Categories { get; set; }
-        public DbSet<Location> Locations { get; set; }
-        public DbSet<Member> Members { get; set; }
-        public DbSet<News> Newses { get; set; }
-        public DbSet<Proposition> Propositions { get; set; }
-        public DbSet<Status> Statuses { get; set; }
+        public DbSet<Activity>? Activities { get; set; }
+        public DbSet<Agenda>? Agendas { get; set; }
+        public DbSet<Category>? Categories { get; set; }
+        public DbSet<Location>? Locations { get; set; }
+        public DbSet<Member>? Members { get; set; }
+        public DbSet<News>? Newses { get; set; }
+        public DbSet<Proposition>? Propositions { get; set; }
+        public DbSet<Status>? Statuses { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
